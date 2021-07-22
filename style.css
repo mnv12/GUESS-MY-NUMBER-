@@ -1,0 +1,77 @@
+body {
+  text-align: center;
+  color: yellow;
+  background-color: tomato;
+}
+.btn1 {
+  text-align: center;
+
+  position: absolute;
+  right: 70rem;
+  bottom: 36rem;
+  font-size: 2rem;
+  border-radius: 8px;
+  padding: 0;
+  transform: translate(-50%, 50%);
+}
+.btn {
+  text-align: center;
+
+  font-size: 2rem;
+  border-radius: 10px;
+  padding: 0;
+  flex-direction: column;
+  position: relative;
+  top: 20rem;
+  right: 20rem;
+  transform: translate(-50%, 50%);
+}
+.btw {
+  text-align: center;
+
+  font-size: 1.5rem;
+  position: absolute;
+  right: 2rem;
+  bottom: 35rem;
+  padding: 0;
+  flex-direction: column;
+  transform: translate(-50%, 50%);
+}
+.doubt {
+  text-align: center;
+  background: #eee;
+  color: #333;
+  font-size: 2rem;
+  width: 6rem;
+  height: 0;
+  padding: 3rem 0rem;
+  text-align: center;
+  position: absolute;
+  bottom: 22rem;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+.to {
+  width: 1500px;
+  height: 5px;
+  background-color: white;
+  position: relative;
+  top: 10rem;
+  right: 1rem;
+}
+.guess {
+  position: relative;
+  top: 8rem;
+}
+.scr {
+  position: absolute;
+  left: 70rem;
+  top: 20rem;
+}
+#box {
+  position: relative;
+  top: 20rem;
+  right: 23rem;
+  width: 8rem;
+  height: 5rem;
+}

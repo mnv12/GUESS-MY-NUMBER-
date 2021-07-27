@@ -1,10 +1,11 @@
 body {
   text-align: center;
   color: yellow;
-  background-color: tomato;
+  background-color: grey;
 }
 .btn1 {
   text-align: center;
+  background-color: yellow;
 
   position: absolute;
   right: 70rem;
@@ -16,7 +17,7 @@ body {
 }
 .btn {
   text-align: center;
-
+  background-color: yellow;
   font-size: 2rem;
   border-radius: 10px;
   padding: 0;
@@ -43,9 +44,9 @@ body {
   color: #333;
   font-size: 2rem;
   width: 6rem;
-  height: 0;
+
   padding: 3rem 0rem;
-  text-align: center;
+
   position: absolute;
   bottom: 22rem;
   left: 50%;
@@ -54,24 +55,27 @@ body {
 .to {
   width: 1500px;
   height: 5px;
-  background-color: white;
+
   position: relative;
   top: 10rem;
   right: 1rem;
+  background-color: yellow;
 }
 .guess {
   position: relative;
   top: 8rem;
+  text-shadow: 1px 1px 2px red;
 }
 .scr {
   position: absolute;
   left: 70rem;
   top: 20rem;
 }
-#box {
+.box {
   position: relative;
   top: 20rem;
   right: 23rem;
   width: 8rem;
   height: 5rem;
+  text-align: center;
 }
